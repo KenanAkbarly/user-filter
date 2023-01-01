@@ -1,0 +1,67 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: linear-gradient(to top, #5ee7df 0%, #b490ca 100%);
+}
+.body{
+    .card{
+        width: 400px;
+        padding: 0px 50px;
+    }
+    .card_row{
+        display: flex;
+        align-items: center;
+        width: 270px;
+        gap: 15px;
+        margin-bottom: 18px;
+                background-color: rgba(228, 228, 228, 0.463);
+
+        padding: 0px 10px;
+        border-radius: 10px;
+        img{
+            border-radius: 50%;
+        }
+        span{
+            color: rgb(61, 61, 61);
+            font-weight: 500;
+        }
+
+    }
+    /* From https://css.glass */
+background: rgba(228, 206, 206, 0.41);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(8.2px);
+-webkit-backdrop-filter: blur(8.2px);
+border: 1px solid rgba(228, 206, 206, 0.53);
+    width: 400px;
+    height: 500px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    position: relative;
+
+    .search_components{
+        width: 280px;
+        background-color: rgba(228, 228, 228, 0.463);
+        height: 40px;
+           margin-left: 30px;
+           margin-bottom: 30px;
+           display: flex;
+           align-items: center;
+           justify-content: space-between;
+           padding: 0px 20px;
+           border-radius: 10px;
+        input{
+            height: 20px;
+            border:none;
+            background-color: transparent;
+            &:focus{
+                outline: none;
+
+            }
+        }
+    }
+    
+}
