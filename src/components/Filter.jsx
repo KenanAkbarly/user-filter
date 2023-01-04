@@ -93,6 +93,7 @@ const Filter = () => {
     },[])
   return (
     <div className='body'>
+        
         <div className='header'></div>
             <div className='header-left'>
                 <h1 className='title'>
